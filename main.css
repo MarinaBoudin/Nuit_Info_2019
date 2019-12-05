@@ -1,0 +1,216 @@
+/*
+Author : Marina Boudin
+*/
+
+html,body,h1,h2,h3,h4,h5,h6,button {
+  font-family: "Roboto", sans-serif;
+}
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{
+  display:block;
+}
+html,body{
+  font-family:Verdana,sans-serif;
+  font-size:15px;
+  line-height:1.5;
+}
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+html{
+  overflow-x:hidden;
+}
+h1{
+  font-size:36px;
+}
+h2{
+  font-size:30px;
+}
+h3{
+  font-size:24px;
+}
+h4{
+  font-size:20px;
+}
+h5{
+  font-size:18px;
+}
+h6{
+  font-size:16px;
+}
+h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.w3-wide{letter-spacing:4px}
+hr{border:0;border-top:1px solid #eee;margin:20px 0}
+
+body {
+   color: #000;
+   background-color: #f1f1f1;
+   margin: 0;
+   display: block;
+ }
+ ul {
+   list-style-type: none;
+   color:#fff;
+   background-color:#009688;
+   margin-top:0px;
+   padding: 0;
+   overflow: hidden;
+   display: block;
+ }
+ li{
+   float: left;
+ }
+ a{
+   text-decoration: none;
+   color: white;
+   background-color: transparent;
+   padding: 14px 16px;
+   font-weight: bold;
+   display: block;
+ }
+ li a:hover {
+   color:#009688;
+   background-color:#fff;
+}
+p{
+  margin-block-start:1em;
+  margin-block-end:1em;
+  margin-inline-start:0px;
+  margin-inline-end:0px;
+}
+img.photo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+button{
+  color:white;
+  background-color: #009688;
+  cursor:pointer;
+  text-align: center;
+  vertical-align: middle;
+}
+button:hover{
+  color:#009688;
+  background-color: white;
+  border: solid #009688 2px;
+}
+hr{
+  border-top: 1px solid #eee;
+}
+.box{
+  color: #009688;
+  box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+  margin-right: 100px;
+  margin-left: 100px;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+ .container{
+   max-width: 1400px;
+   margin-top: 16px;
+   margin-left: auto;
+   margin-right: auto;
+   display:block;
+ }
+ .grid{
+   padding: 0 8px;
+   display: block;
+ }
+ /*Left column */
+.left {
+  padding:0 8px;
+  float:left;
+  width: 25%;
+}
+.left:after .left:before {
+  content:"";
+  display:table;
+  clear:both;
+}
+.left-left{
+  color:#757575;
+  background-color:#fff;
+  box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+  display: block;
+  border:solid #009688 2px;
+}
+.left-left:after .left-left:before {
+  content:"";
+  display:table;
+  clear:both;
+}
+.div_photo {
+  position:relative;
+  display:block;
+  padding-top: 10px;
+}
+.container-left{
+  padding:0.01em 16px;
+}
+.container-left:after .container-left:before {
+  content:"";
+  display:table;
+  clear:both;
+}
+.container_text-left {
+  margin-block-start:1em;
+  margin-block-end:1em;
+  margin-inline-start:0px;
+  margin-inline-end:0px;
+  color: #757575;
+  font-size:15px;
+  margin-right:16px;
+}
+/* Right column */
+
+.right{
+  float:left;
+  width:75%;
+  padding:0 8px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  margin-bottom: 16px;
+  background-color: #fff;
+}
+.right:after .right:before {
+  content:"";
+  display:table;
+  clear:both;
+}
+.right-right{
+  color:#000;
+  background-color:#fff;
+  margin-bottom: 16px;
+  padding: 0.01em 16px;
+  display:block;
+}
+.right-right:after .right-right:before {
+  content:"";
+  display:table;
+  clear:both;
+}
+.card-right{
+  margin-top:20px;
+  color : #000;
+  background-color: #fff;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  padding: 0.01em 16px;
+  display: block;
+  border:solid #009688 2px;
+}
+.card-right:after .card-right:before {
+  content:"";
+  display:table;
+  clear:both;
+}
+.big-title-right {
+  color:#757575;
+  padding-top:16px;
+  padding-bottom:16px;
+}
+
+.medium-title-right{
+  opacity:0.60;
+}
+
+.date-title-right{
+  color:#009688;
+}
