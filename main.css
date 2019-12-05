@@ -104,6 +104,13 @@ hr{
   font-weight: bold;
 }
 
+.underbox{
+  text-align: justify;
+  font-weight: normal;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
  .container{
    max-width: 1400px;
    margin-top: 16px;
