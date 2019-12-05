@@ -104,6 +104,10 @@ hr{
   font-weight: bold;
 }
 
+.url{
+  color: #009688;
+}
+
 .underbox{
   text-align: justify;
   font-weight: normal;
