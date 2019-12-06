@@ -1,0 +1,3 @@
+En cliquant sur l'ordi, la solution pour le mot de passe est 1234. 
+
+Pour la conversation avec l'agent d'accueil, les réponses correctes sont "Chocolatine" ou une réponse vide 
