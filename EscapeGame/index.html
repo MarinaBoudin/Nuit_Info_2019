@@ -1,0 +1,61 @@
+<html>
+    <head>
+       <title>Escape Game 2019</title>
+
+    </head>
+    <body>
+        <div id="intro" onclick="startGame()">
+            <p>Salut jeune étudiant-e!! </p>
+            <p>Après avoir validé ton dossier pour la demande de logement aux résidences Crous, tu prépares ton arrivée à Bordeaux.</p>
+            <p>Malheureusement, le jour de ton arriv&eacute;e personne n'est à l'accueil de la résidence pour te rendre les clés. Il faudra que tu trouves un moyen pour les obtenir...</p>
+            <p>Cliquer pour d&eacute;marrer le jeu</p>
+        </div>
+
+        <div id="game" style="display: none;">
+            <img id="desk" src="./desk.jpg" onclick="deskGame()"></img>
+            <img id="sonette" src="./sonette-de-comptoir.jpg" onclick="callReceptionist()"></img>
+        </div>
+                <div id="myDigiCode" style="display:none">
+        
+        
+                    <div id="myCode">
+        
+                        <p>
+                            <span id="myCodeTxt" >CODE</span>
+                        </p>
+        
+        
+                        <p>
+                        <input type="button" value="1" onclick="digicodePress(this.value)"/>
+                        <input type="button" value="2" onclick="digicodePress(this.value)"/>
+                        <input type="button" value="3" onclick="digicodePress(this.value)"/>
+                        </p>
+        
+                        <p>
+                        <input type="button" value="4" onclick="digicodePress(this.value)"/>
+                        <input type="button" value="5" onclick="digicodePress(this.value)"/>
+                        <input type="button" value="6" onclick="digicodePress(this.value)"/>
+                        </p>
+        
+                        <p>
+                        <input type="button" value="7" onclick="digicodePress(this.value)"/>
+                        <input type="button" value="8" onclick="digicodePress(this.value)"/>
+                        <input type="button" value="9" onclick="digicodePress(this.value)"/>
+                        </p>
+        
+                        <p>
+                        <input type="button" value="0" onclick="digicodePress(this.value)"/>
+                        <input type="button" value="DEL" onclick="digicodePress(this.value)"/>
+                        <input type="button" value="VAL" onclick="digicodePress(this.value)"/>
+                        </p>
+        
+                    </div>
+        
+                    <p class="exit"><a href="#" onclick="loadRoom(digicodeLinkBack)">Fermer</a></p>
+        
+                </div>
+        <script src="./main.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="style.css"></script>
+        <audio id="ding" src="./dong.wav"></audio>
+    </body>
+</html>
